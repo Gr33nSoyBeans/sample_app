@@ -6,8 +6,12 @@ class ApplicationHelperTest < ActionView::TestCase
   #  assert_equal full_title("Help"), FILL_IN
 
 
-   #     assert_equal full_title,         "Help | Ruby on Rails Tutorial Sample App"
-   # assert_equal full_title("Help"),  "Ruby on Rails Tutorial Sample App" 
+puts full_title
+puts full_title("Help")
+
+   #     assert_equal full_title,    "Ruby on Rails Tutorial Sample App" 
+   # assert_equal full_title("Help"),       "Help | Ruby on Rails Tutorial Sample App"
+
 
 
     assert_equal full_title,         full_title
